@@ -6,3 +6,17 @@ set nocompatible  " be iMproved
 filetype off      " required!
 set rtp+=$HOME/dotjanus/bundle/vundle/
 call vundle#rc('$HOME/dotjanus/bundle/')
+
+" ========== Bundle list ==========
+" The plug-in manager for Vim. Here let Vundle manage Vundel
+Bundle 'gmarik/vundle'
+
+" ========== Color Schemes ==========
+" A slightly-modified desert theme, for 88- and 256-color xterms.
+Bundle 'desert256.vim'
+" A port of the Railscasts Textmate theme to Vim (GUI Only)
+Bundle 'jpo/vim-railscasts-theme'
+" A color scheme that imitates the Twilight theme for TextMate
+Bundle 'twilight256.vim'
+" A low-contrast color scheme for Vim. 
+Bundle 'Zenburn'
