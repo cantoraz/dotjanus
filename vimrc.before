@@ -1,0 +1,8 @@
+" This configuration file works with Janus!
+" https://github.com/carlhuda/janus
+
+" ==================== Vundle - Manage our vim plugins ====================
+set nocompatible  " be iMproved
+filetype off      " required!
+set rtp+=$HOME/dotjanus/bundle/vundle/
+call vundle#rc('$HOME/dotjanus/bundle/')
