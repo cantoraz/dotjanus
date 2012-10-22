@@ -1,6 +1,10 @@
 " This configuration file works with Janus!
 " https://github.com/carlhuda/janus
 
+" Change leader to a comma because the backslash is too far away
+" That means all \x commands turn into ,x
+let mapleader=","
+
 " ==================== Vundle - Manage our vim plugins ====================
 set nocompatible  " be iMproved
 filetype off      " required!
